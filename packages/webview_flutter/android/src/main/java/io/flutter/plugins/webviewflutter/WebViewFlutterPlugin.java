@@ -6,7 +6,7 @@ package io.flutter.plugins.webviewflutter;
 
 import android.content.Intent;
 
-import androidx.annotation.NonNull
+import androidx.annotation.NonNull;
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import io.flutter.embedding.engine.plugins.activity.ActivityAware;
@@ -104,6 +104,6 @@ public class WebViewFlutterPlugin implements FlutterPlugin, ActivityAware, Plugi
     if (_webViewFactory != null) {
       return _webViewFactory.onActivityResult(requestCode, resultCode, data);
     }
-    return false
+    return false;
   }
 }
